@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Code, Camera, Cpu } from 'lucide-react'
+import { Code, Camera } from 'lucide-react'
 
 export default function Products() {
   return (
@@ -22,15 +22,16 @@ export default function Products() {
                 <li>Seamless integration with existing farm management systems</li>
                 <li>Customizable detection parameters for various crop types</li>
               </ul>
-              
-              <a href="https://github.com/AjinJayan/weed_detection" target="_blank"><Button className="w-full">Learn More</Button></a>
+              <a href="https://github.com/AjinJayan/weed_detection" target="_blank" rel="noopener noreferrer">
+                <Button className="w-full">Learn More</Button>
+              </a>
             </CardContent>
           </Card>
           <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardHeader>
               <CardTitle className="flex items-center text-2xl font-semibold text-green-700">
                 <Camera className="w-6 h-6 mr-2" />
-                IoT Devices & Sensors
+                IoT Devices &amp; Sensors
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -46,6 +47,6 @@ export default function Products() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 

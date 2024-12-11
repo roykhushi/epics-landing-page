@@ -48,7 +48,7 @@ export default function About() {
           <CardContent>
             <p className="mb-4">
               Our system combines advanced AI/ML models with IoT sensors to detect weeds in real-time. 
-              Here's a brief overview of our innovative process:
+              Here&apos;s a brief overview of our innovative process:
             </p>
             <ol className="list-decimal list-inside space-y-2">
               <li>IoT sensors collect real-time data from the field, including high-resolution images and environmental information.</li>
@@ -60,6 +60,7 @@ export default function About() {
         </Card>
       </div>
     </section>
-  )
+  );
 }
+
 

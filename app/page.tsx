@@ -9,7 +9,6 @@ import Products from './components/Products'
 import Support from './components/Support'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
-import Team from './components/Team'
 
 export default function Home() {
   return (

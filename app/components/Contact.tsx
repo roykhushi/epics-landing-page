@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mail, MessageSquare, Send } from 'lucide-react'
+import { Mail, Send } from 'lucide-react'
 
 export default function Contact() {
   return (
@@ -44,6 +44,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
