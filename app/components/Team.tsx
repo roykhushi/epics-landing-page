@@ -4,7 +4,7 @@ export default function Team() {
   return (
     <section id="team" className="bg-gray-100 py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Our Team</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-green-800">Our Team</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center">
             <Image 

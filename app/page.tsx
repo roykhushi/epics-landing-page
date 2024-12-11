@@ -25,7 +25,7 @@ export default function Home() {
         <Support />
         <Blog />
         <Contact />
-        <Team />
+        {/* <Team /> */}
       </main>
       <Footer />
     </div>
