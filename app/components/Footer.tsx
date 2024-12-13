@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">WeedAI</h3>
+            <h3 className="text-lg font-semibold mb-4">Smart Kheti</h3>
             <p>Revolutionizing agriculture with AI and IoT</p>
           </div>
           <div>
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-green-700 text-center">
-          <p>&copy; 2023 WeedAI. All rights reserved.</p>
+          <p>&copy; 2023 Smart Kheti. All rights reserved.</p>
         </div>
       </div>
     </footer>
