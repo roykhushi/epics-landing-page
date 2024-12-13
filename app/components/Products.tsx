@@ -22,9 +22,9 @@ export default function Products() {
                 <li>Seamless integration with existing farm management systems</li>
                 <li>Customizable detection parameters for various crop types</li>
               </ul>
-              <a href="https://github.com/AjinJayan/weed_detection" target="_blank" rel="noopener noreferrer">
+              
                 <Button className="w-full">Learn More</Button>
-              </a>
+             
             </CardContent>
           </Card>
           <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
