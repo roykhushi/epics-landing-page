@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-green-700 text-center">
-          <p>&copy; 2023 Smart Kheti. All rights reserved.</p>
+          <p>&copy; 2024 Smart Kheti. All rights reserved.</p>
         </div>
       </div>
     </footer>
