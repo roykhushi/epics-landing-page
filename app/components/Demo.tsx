@@ -15,10 +15,11 @@ export default function Demo() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center mb-6">
-              <p className="text-xl text-gray-600">Interactive Demo Placeholder</p>
+            <div className="aspect-video max-h-full bg-gray-200 rounded-lg flex items-center justify-center mb-6">
+              {/* <p className="text-xl text-gray-600">Interactive Demo Placeholder</p> */}
+              <video className="w-full" src="./robotic_arm.mp4" autoPlay controls></video>
             </div>
-            <Button size="lg" className="w-full">Try Live Demo</Button>
+            {/* <Button size="lg" className="w-full">Try Live Demo</Button> */}
           </CardContent>
         </Card>
         <div>

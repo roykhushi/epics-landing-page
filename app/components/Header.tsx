@@ -15,12 +15,16 @@ export default function Header() {
             <li><Link href="#contact">Contact</Link></li>
           </ul>
         </nav>
+        <Link href="#demo">
         <Button 
           variant="outline" 
           className="text-green-800 border-green-800 hover:bg-green-700 hover:text-white"
+          
         >
           Get Started
         </Button>
+        </Link>
+        
       </div>
     </header>
   )

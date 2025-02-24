@@ -60,13 +60,13 @@ export default function Technology() {
             </p>
             <div className="relative h-80 bg-white rounded-lg overflow-hidden">
               <Image 
-                src="/placeholder.svg" 
+                src="/data_pipeline.jpg" 
                 alt="Data Pipeline Diagram" 
                 layout="fill"
                 objectFit="contain"
                 className="p-4"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-green-700 via-transparent to-green-700 flex items-center justify-around text-green-800 font-semibold">
+              {/* <div className="absolute inset-0 bg-gradient-to-r from-green-700 via-transparent to-green-700 flex items-center justify-around text-green-800 font-semibold">
                 <div className="text-center">
                   <p className="bg-white rounded px-2 py-1 mb-2">Data Collection</p>
                   <p className="text-xs text-white">IoT Sensors</p>
@@ -83,7 +83,7 @@ export default function Technology() {
                   <p className="bg-white rounded px-2 py-1 mb-2">Action</p>
                   <p className="text-xs text-white">Insights & Control</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </CardContent>
         </Card>
